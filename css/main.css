@@ -1,0 +1,18 @@
+.red{
+    background-color: red;
+}
+.header{
+    height: 9vh;
+}
+.header-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+    border: 2px solid black;
+}
+.header-icons li{
+    text-decoration: none;
+    
+}
