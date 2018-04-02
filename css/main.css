@@ -1,18 +1,21 @@
-.red{
-    background-color: red;
-}
+
 .header{
     height: 9vh;
 }
 .header-icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: flex-end;
+    align-content: flex-end; 
     
-    border: 2px solid black;
+    list-style: none;
+  padding: .5em;
+   
 }
 .header-icons li{
-    text-decoration: none;
-    
+   padding: 0px .5em; 
 }
+/* svg:not(:root).svg-inline--fa{
+    
+    font-size: 2rem;
+} */
